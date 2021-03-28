@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2020 Google Inc.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#000000"
+            android:backgroundTintMode="add"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#D9B5D417"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="632dp"
+                android:background="@drawable/background2"
+                android:backgroundTint="#75000000"
+                android:backgroundTintMode="src_over"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="70dp"
+                    android:text="Welcome To RunApp!"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#BFBFBF"
+                    android:textSize="48sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:adjustViewBounds="false"
+                    android:background="@android:color/transparent"
+                    android:onClick="goToApp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_start_button" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:paddingTop="10dp"
+                    android:text="Get Started"
+                    android:textAlignment="center"
+                    android:textColor="#BFBFBF"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="#D9B5D417"
+                android:orientation="horizontal"></LinearLayout>
+
+        </LinearLayout>
+
+        <!-- TODO: change textColor to darkGrey to fix contrast -->
+
+        <!-- TODO: add contentDescription to fix missing label issue -->
+        <!-- TODO: add padding to expand touchable area -->
+
+        <!-- TODO: add contentDescription to fix missing label issue -->
+        <!-- TODO: add padding to expand touchable area -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

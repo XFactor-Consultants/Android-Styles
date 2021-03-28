@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimerActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#B5D417"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="595dp"
+            android:background="@drawable/background2"
+            android:backgroundTint="#8A000000"
+            android:backgroundTintMode="src_atop"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                android:breakStrategy="simple"
+                android:paddingLeft="50sp"
+                android:paddingTop="50sp"
+                android:paddingRight="50sp"
+                android:text="Running Timer"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/timer_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:text="00:00:00"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text="min          sec          deci"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="221dp"
+                    android:layout_height="101dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="startTimer"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_start_button" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="192dp"
+                    android:layout_height="101dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="reset"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_reset" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/start_label"
+                    android:layout_width="106dp"
+                    android:layout_height="61dp"
+                    android:layout_weight="1"
+                    android:text="Start"
+                    android:textAlignment="center"
+                    android:textColor="#BFBFBF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:layout_weight="1"
+                    android:text="Reset"
+                    android:textAlignment="center"
+                    android:textColor="#BFBFBF"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="70sp"
+                android:paddingRight="70sp">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="goHome"
+                    android:paddingTop="10sp"
+                    android:paddingBottom="10sp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_home" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="84dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:paddingTop="10sp"
+                    android:paddingBottom="10sp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_timer" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
