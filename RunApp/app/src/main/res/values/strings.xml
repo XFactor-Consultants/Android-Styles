@@ -16,6 +16,13 @@
 
 <resources>
     <string name="app_name">RunApp</string>
-    <string name="runapp">RunApp</string>
-
+    <string name="app_title">Welcome To RunApp!</string>
+    <string name="timer_title">Running Timer</string>
+    <string name="timer_default_value">00:00:00</string>
+    <string name="timer_label">min\t\t\t\tsec\t\t\t\tdeci</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_reset">Reset</string>
+    <string name="button_home">Home</string>
+    <string name="button_timer">Timer</string>
+    <string name="button_start">Get Started</string>
 </resources>

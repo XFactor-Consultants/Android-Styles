@@ -70,8 +70,9 @@
 
                 <ImageButton
                     android:id="@+id/imageButton2"
-                    android:layout_width="221dp"
+                    android:layout_width="match_parent"
                     android:layout_height="101dp"
+                    android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:contentDescription="@string/timer_start"
                     android:onClick="startTimer"
@@ -80,15 +81,17 @@
 
                 <ImageButton
                     android:id="@+id/imageButton3"
-                    android:layout_width="192dp"
+                    android:layout_width="match_parent"
                     android:layout_height="101dp"
+                    android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:contentDescription="@string/timer_reset"
                     android:foregroundTint="#FFFFFF"
                     android:onClick="reset"
                     android:scaleType="fitCenter"
                     android:src="@drawable/reset"
-                    android:tint="#BCBCBC" />
+                    android:tint="#BCBCBC"
+                    tools:src="@drawable/reset" />
 
             </LinearLayout>
 
@@ -99,7 +102,7 @@
 
                 <TextView
                     android:id="@+id/start_label"
-                    android:layout_width="106dp"
+                    android:layout_width="match_parent"
                     android:layout_height="61dp"
                     android:layout_weight="1"
                     android:text="@string/timer_start"
@@ -109,7 +112,7 @@
 
                 <TextView
                     android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="61dp"
                     android:layout_weight="1"
                     android:text="@string/timer_reset"

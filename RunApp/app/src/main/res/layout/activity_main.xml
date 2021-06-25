@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="70dp"
-                    android:text="Welcome To RunApp!"
+                    android:text="@string/app_title"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="#BFBFBF"
@@ -66,6 +66,7 @@
                     android:layout_height="143dp"
                     android:adjustViewBounds="false"
                     android:background="@android:color/transparent"
+                    android:contentDescription="@string/button_timer"
                     android:onClick="goToApp"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ic_start_button" />
@@ -75,7 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
                     android:paddingTop="10dp"
-                    android:text="Get Started"
+                    android:text="@string/button_start"
                     android:textAlignment="center"
                     android:textColor="#BFBFBF"
                     android:textSize="30sp" />

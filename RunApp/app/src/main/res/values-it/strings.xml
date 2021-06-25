@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RunApp</string>
+    <string name="app_title">Benvenuto a RunApp!</string>
+    <string name="timer_title">Timer in Esecuzione</string>
+    <string name="timer_default_value">00:00:00</string>
+    <string name="timer_label">min\t\t\t\tsec\t\t\t\tdeci</string>
+    <string name="timer_start">Inizio</string>
+    <string name="timer_reset">Ripristina</string>
+    <string name="button_home">Casa</string>
+    <string name="button_timer">Timer</string>
+    <string name="button_start">Iniziare</string>
+</resources>

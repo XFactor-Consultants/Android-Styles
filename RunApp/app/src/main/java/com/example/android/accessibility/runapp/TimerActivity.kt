@@ -30,7 +30,7 @@ class TimerActivity : AppCompatActivity() {
     }
     private fun pause() {
         started = false
-        start_label.text = "Start"
+        start_label.text = resources.getString(R.string.timer_start)
     }
     fun updateText() {
         val minutes: Int = time / 360000
@@ -48,7 +48,7 @@ class TimerActivity : AppCompatActivity() {
         if(started)   {
             return pause()
         }
-        start_label.text = "Pause"
+        start_label.text = resources.getString(R.string.timer_start)
         started = true
         val handler = Handler()
         handler.post(object : Runnable {
