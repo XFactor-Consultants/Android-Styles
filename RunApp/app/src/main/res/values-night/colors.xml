@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright 2020 Google Inc.
 
@@ -15,13 +16,6 @@
 -->
 
 <resources>
-
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@color/darkGrey</item>
-        <item name="android:textColorTertiary">@color/darkGrey</item>
-    </style>
-
+    <color name="colorBackground">#A1202020</color>\
+    <color name="colorIcon">#f4f4f4</color>
 </resources>

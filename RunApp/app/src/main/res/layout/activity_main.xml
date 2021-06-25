@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="632dp"
                 android:background="@drawable/background2"
-                android:backgroundTint="#75000000"
+                android:backgroundTint="@color/colorBackground"
                 android:backgroundTintMode="src_over"
                 android:orientation="vertical">
 
@@ -57,7 +57,6 @@
                     android:text="@string/app_title"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#BFBFBF"
                     android:textSize="48sp" />
 
                 <ImageButton
@@ -69,6 +68,7 @@
                     android:contentDescription="@string/button_timer"
                     android:onClick="goToApp"
                     android:scaleType="fitCenter"
+                    android:tint="@color/colorIcon"
                     app:srcCompat="@drawable/ic_start_button" />
 
                 <TextView
@@ -78,7 +78,6 @@
                     android:paddingTop="10dp"
                     android:text="@string/button_start"
                     android:textAlignment="center"
-                    android:textColor="#BFBFBF"
                     android:textSize="30sp" />
 
             </LinearLayout>
