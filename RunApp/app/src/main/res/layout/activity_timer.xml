@@ -17,14 +17,6 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:background="#B5D417"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
             android:layout_height="654dp"
             android:background="@drawable/background2"
             android:backgroundTint="@color/colorBackground"

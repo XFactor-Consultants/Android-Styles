@@ -26,24 +26,20 @@
         tools:context=".MainActivity">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="1dp"
+            android:layout_width="408dp"
+            android:layout_height="0dp"
             android:backgroundTint="#000000"
             android:backgroundTintMode="add"
             android:orientation="vertical"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="1dp">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="#D9B5D417"
-                android:orientation="horizontal"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="632dp"
+                android:layout_height="676dp"
+                android:layout_weight="1"
                 android:background="@drawable/background2"
                 android:backgroundTint="@color/colorBackground"
                 android:backgroundTintMode="src_over"
@@ -62,7 +58,7 @@
                 <ImageButton
                     android:id="@+id/imageButton"
                     android:layout_width="match_parent"
-                    android:layout_height="143dp"
+                    android:layout_height="135dp"
                     android:adjustViewBounds="false"
                     android:background="@android:color/transparent"
                     android:contentDescription="@string/button_timer"
@@ -84,7 +80,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
                 android:background="#D9B5D417"
                 android:orientation="horizontal"></LinearLayout>
 
