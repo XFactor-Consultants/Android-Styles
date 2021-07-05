@@ -31,6 +31,7 @@ class TimerActivity : AppCompatActivity() {
     private fun pause() {
         started = false
         start_label.text = resources.getString(R.string.timer_start)
+        action_button.setImageResource(R.drawable.ic_start_button)
     }
     fun updateText() {
         val minutes: Int = time / 360000
@@ -49,6 +50,7 @@ class TimerActivity : AppCompatActivity() {
             return pause()
         }
         start_label.text = resources.getString(R.string.timer_start)
+        action_button.setImageResource(R.drawable.ic_pause)
         started = true
         val handler = Handler()
         handler.post(object : Runnable {

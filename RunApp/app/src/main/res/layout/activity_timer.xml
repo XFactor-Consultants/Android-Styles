@@ -58,7 +58,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/action_button"
                     android:layout_width="221dp"
                     android:layout_height="101dp"
                     android:background="@android:color/transparent"
@@ -69,7 +69,7 @@
                     app:srcCompat="@drawable/ic_start_button" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/rest_button"
                     android:layout_width="192dp"
                     android:layout_height="101dp"
                     android:background="@android:color/transparent"
@@ -96,7 +96,7 @@
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/reset_label"
                     android:layout_width="wrap_content"
                     android:layout_height="61dp"
                     android:layout_weight="1"
